@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pale-blue);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.container .azul, .container .branco {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container .azul {
+    background-color: var(--light-royal-blue);
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.container .azul h4 {
+    color: lightgray;
+    font-size: 1.8rem;
+}
+
+.container .azul .resultado {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: var(--cobalt-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .azul .resultado .pontuacao {
+    font-size: 5.5rem;
+    font-weight: 800;
+}
+
+.container .azul .resultado .total {
+    font-size: 1.5rem;
+    color: lightgray;
+}
+
+.container .azul h2 {
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+}
+
+.container .azul .text {
+    color: lightgray;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+.container .branco {
+    justify-content: space-around;
+}
+
+.container .branco h2 {
+    font-size: 1.8rem;
+    align-self: flex-start;
+}
+
+.container .branco ul li {
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.container .branco ul li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .branco ul li span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 0 5px;
+}
+
+.container .branco ul li:nth-child(1) {
+    background-color: var(--light-red-bg);
+}
+
+.container .branco ul li:nth-child(2) {
+    background-color: var(--orange-yellow-bg);
+}
+
+.container .branco ul li:nth-child(3) {
+    background-color: var(--green-teal-bg);
+}
+
+.container .branco ul li:nth-child(4) {
+    background-color: var(--cobalt-blue-bg);
+}
+
+.container .branco ul li:nth-child(1) div span {
+    color: var(--light-red);
+}
+
+.container .branco ul li:nth-child(2) div span {
+    color: var(--orange-yellow);
+}
+.container .branco ul li:nth-child(3) div span {
+    color: var(--green-teal);
+}
+.container .branco ul li:nth-child(4) div span {
+    color: var(--cobalt-blue);
+}
+
+.container .branco ul li p {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.container .branco ul li p span {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.btn {
+    font-size: 1.6rem;
+    color: var(--pale-blue);
+    background-color: var(--dark-gray-blue);
+    padding: 10px 75px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: var(--light-royal-blue);
+}

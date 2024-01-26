@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sword Art Online</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <div class="video-fundo">
+        <video class="video" autoplay loop muted>
+            <source src="./src/videos/videofundo.mp4">
+        </video>
+    </div>
+
+    <div class="imagem-fundo">
+        <img class="imagem" src="./src/img/fundo.jpg" alt="Imagem do castelo de Aincrad">
+    </div>
+
+    <header class="cabecalho">
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="https://www.crunchyroll.com/pt-br/series/GR49G9VP6/sword-art-online" target="_blank">Assista</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/img/kiritoasuna.png" alt="imagem do titulo do filme">
+            <p class="descricao">Em um futuro próximo, foi lançado um Jogo de Realidade Virtual em Massa para Múltiplos Jogadores Online (VRMMORPG) chamado Sword Art Online, onde seus jogadores controlam seus personagens com o próprio corpo usando um dispositivo tecnológico chamado: NerveGear. Um dia, os jogadores descobrem que não podem sair do jogo, pois o criador do jogo os mantêm presos a menos que eles cheguem ao 100º andar da Torre e derrotem o Boss final. No entanto, se eles morrerem no jogo, morrerão também na vida real. A luta pela sobrevivência começa agora...
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+
+        <div class="miniaturas-videos">   
+            <video class="miniatura1" loop autoplay muted>
+                <source src="./src/videos/mini1.mp4">
+            </video>
+                
+            <video class="miniatura2" loop autoplay muted>
+                <source src="./src/videos/mini2.mp4">
+            </video>
+
+            <video class="miniatura3" loop autoplay muted>
+                <source src="./src/videos/mini3.mp4">
+            </video>
+        </div>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Z6I1IS6joFY" title="Sword Art Online Trailer" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+    
+</body>
+</html>

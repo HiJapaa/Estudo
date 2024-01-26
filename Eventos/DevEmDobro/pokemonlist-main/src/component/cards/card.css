@@ -1,0 +1,77 @@
+.pokemon-card {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+}
+
+.modo-escuro .pokemon-card {
+    background-color: #a8a8a8;
+}
+
+.pokemon-card:hover {
+    background-color: #96d9d6;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.pokemon-card .info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.pokemon-card .info span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.pokemon-card .gif {
+    width: 75px;
+    height: 75px;
+}
+
+.pokemon-card .types {
+    display: flex;
+    gap: 15px;
+    text-transform: capitalize;
+}
+
+.pokemon-card .types .type {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.pokemon-card .description {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.grass {
+    background-color: #7ac74c;
+}
+
+.poison {
+    background-color: #df67ddfb;
+}
+
+.fire {
+    background-color: #ee8130;
+}
+
+.water {
+    background-color: #6390f0;
+}
+
+.bug {
+    background-color: #a6b91a;
+}

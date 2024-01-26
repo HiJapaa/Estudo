@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: 100vh;
+        width: max-content;
+    }
+
+    .container .azul {
+        border-radius: 0 0 25px 25px;
+        height: max-content;
+        padding: 20px 40px 40px;
+    }
+    
+    .container .azul h4 {
+        font-size: 1.6rem;
+    }
+    
+    .container .azul .resultado {
+        width: 120px;
+        height: 120px;
+        margin: 15px;
+    }
+    
+    .container .azul .resultado .pontuacao {
+        font-size: 5rem;
+    }
+    
+    .container .azul .resultado .total {
+        font-size: 1.2rem;
+    }
+    
+    .container .azul h2 {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+    
+    .container .azul .text {
+        font-size: 1.2rem;
+    }
+
+    .container .branco {
+        padding: 20px 40px 40px;
+    }
+}

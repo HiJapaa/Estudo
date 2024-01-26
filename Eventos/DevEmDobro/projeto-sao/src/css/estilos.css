@@ -1,0 +1,211 @@
+body {
+    font-family:'Lobster', cursive;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+    background-image: linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        rgb(105, 228, 255) 90%,
+        rgb(105, 228, 255) 100%
+    );
+
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 600ms;
+}
+
+.cabecalho nav li a:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    height: calc(100vh - 132px);
+    align-items: center;
+    padding: 0 30px 30px;
+}
+
+.container .informacoes .imagem-titulo {
+    max-width: 400px;
+}
+
+.container .informacoes .descricao {
+    color: #ffffff;
+    text-align: center;
+    width: 65%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.container .informacoes .botao-trailer {
+    background-color: rgb(36, 147, 172);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: .3s all ease-in-out;
+}
+
+.container .informacoes .botao-trailer:hover {
+    transform: scale(1.1);
+}
+
+.imagem-fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-fundo .imagem {
+    height: 100vh;
+    width: 100vw;
+    opacity: .2;
+}
+
+.imagem-fundo::after {
+    z-index: -2;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,1)
+}
+
+.video-fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.video-fundo .video {
+    visibility: hidden;
+    height: 100vh;
+    opacity: .2;
+}
+
+.video-fundo::after {
+    z-index: -2;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,1);
+    visibility: hidden;
+}
+
+.container .modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,52,50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container .modal .conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #000;
+    color: #f03a17;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container .miniaturas-videos {
+    position: relative;
+    bottom: 150px;
+    width: 5000px;
+    height: 340px;
+}
+
+.miniatura1, .miniatura2, .miniatura3 {
+    border-radius: 20px;
+    position: absolute;
+    transition: .5s;
+    width: 360px;
+}
+
+.miniatura1:hover, .miniatura2:hover, .miniatura3:hover {
+    transform: scale(1.15);
+}
+
+.miniatura2 {
+    top: 220px;
+    right: 0;
+}
+
+.miniatura3 {
+    top: 440px;
+}
+
+.esconder-miniatura video {
+    opacity: 0;
+    visibility: hidden;
+}

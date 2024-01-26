@@ -1,0 +1,426 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    height: 90vh;
+    padding: 5rem 6% 3rem;
+}
+
+
+/* ========== CABEÇALHO ========== */
+
+.cabecalho {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: black;
+    z-index: 10;
+}
+
+.cabecalho .logo {
+    height: 100%;
+}
+
+.cabecalho .bx {
+    color: var(--corFontePrincipal);
+    font-size: 24px;
+}
+
+.cabecalho .navBar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho .navBar ul li a {
+    font-size: 18px;
+    color: black;
+    background-color: var(--corFontePrincipal);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.cabecalho .navBar ul li a:hover, .cabecalho .navBar a.ativo {
+    background-color: var(--corBorda);
+    color: var(--corFontePrincipal);
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.cabecalho .discord {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.cabecalho .discord:hover {
+    transform: scale(1.1);
+}
+
+#menu-icon {
+    display: none;
+}
+
+
+/* ========== SEEDS ========== */
+
+.seeds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.seed {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: max-content;
+    border-radius: 25px;
+    border: 2px solid var(--corBorda);
+    padding: 10px;
+}
+
+.seed h3 {
+    align-self: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.seed h5 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.seed a {
+    font-size: 18px;
+    padding: 5px 0;
+    color: black;
+    transition: .4s ease-in-out;
+}
+
+.seed a:hover {
+    transform: scale(1.05);
+}
+
+.seeds span {
+    font-size: 20px;
+    color: var(--corDestaque);
+    font-weight: 700;
+}
+
+
+/* ========== TIMES ========== */
+
+.times {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.times .time {
+    width: 160px;
+    height: max-content;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid var(--corBorda);
+    padding: 20px;
+}
+
+.times .time h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.times .time p {
+    font-size: 18px;
+    padding: 5px 0;
+    color: black;
+}
+
+.times .time span {
+    font-size: 20px;
+    color: var(--corDestaque);
+}
+
+
+/* ========== FASE 1 ========== */
+
+.fase1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 100vh;
+}
+
+.fase1 .grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fase1 .grupo h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.fase1 .grupo .resultado {
+    text-align: center;
+}
+
+.fase1 .grupo .placar {
+    display: flex;
+    gap: 10px;
+}
+
+.jogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.hora {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid var(--corBorda);
+}
+
+.fase1 .hora .jogo p {
+    font-size: 14px;
+}
+
+.jogo a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s ease-in-out;
+}
+
+.jogo a:hover {
+    transform: scale(1.05);
+}
+
+.jogo .time {
+    text-align: center;
+}
+
+.hora h3 {
+    font-size: 24px;
+}
+
+
+/* ========== FASE 2 ========== */
+
+.fase2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.semi1 .time {
+    width: 160px;
+    height: max-content;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid var(--corBorda);
+    padding: 20px;
+}
+
+.semi1 {
+    text-align: center;
+}
+
+.semi1 h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.semi2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fase2 .resultado h4 {
+    font-size: 20px;
+}
+
+.fase2 .placar {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+/* ========== FINAL ========== */
+
+.final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.final .time {
+    width: 160px;
+    height: max-content;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid var(--corBorda);
+    padding: 20px;
+}
+
+.final1 {
+    text-align: center;
+}
+
+.final1 h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.final1 .resultado h6 {
+    font-size: 20px;
+}
+
+.final1 .placar {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.final1 .mapa {
+    padding: 10px 0;
+}
+
+.final1 .mapa:nth-child(2) {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.final2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* ========== CAMPEAO ========== */
+
+.campeao {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.campeao .jogador {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campeao .jogador p:nth-child(2) {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.campeao .jogador img {
+    border-radius: 50%;
+}
+
+
+/* ========== RODAPE ========== */
+
+.rodape {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+}
+
+.rodape img {
+    height: 100%;
+}
+
+.cuplogo {
+    filter: invert(1);
+}
+
+
+/* ========== GERAL ========== */
+
+.time p {
+    font-size: 18px;
+    padding: 5px 0;
+    color: black;
+}
+
+.time span {
+    font-size: 20px;
+    color: var(--corDestaque);
+}
+
+.placar p.v {
+    color: green;
+}
+
+.placar p.d {
+    color: red;
+}
+
+.celular {
+    display: none;
+}
+
+.resultado.cel {
+    display: none;
+}
+
+.wait {
+    display: none;
+}

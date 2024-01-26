@@ -1,0 +1,184 @@
+@media (max-width: 1325px) {
+
+    .times {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .times .time {
+        margin: auto auto;
+    }
+}
+
+@media (max-width: 1210px) {
+
+    .seeds {
+        gap: 35px 100px;
+    }
+
+    .fase1 {
+        gap: 75px;
+    }
+}
+
+@media (max-width: 935px) {
+    
+    section {
+        height: auto;
+        padding: 9rem 6% 3rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navBar {
+        position: absolute;
+        top: 100%;
+        left: 45%;
+        background: black;
+        padding: 1rem 3%;
+        border-radius: 0 0 15px 15px;
+        display: none;
+    }
+
+    .navBar ul {
+        flex-direction: column;
+    }
+
+    .navBar ul li {
+        padding: 5px;
+    }
+
+    .navBar.ativo {
+        display: block;
+    }
+
+    .campeao {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .campeao div:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .campeao .jogador {
+        padding: 20px;
+        margin: auto auto;
+        border: 2px solid var(--corBorda);
+        border-radius: 25px;
+        text-align: center;
+        width: 250px;
+    }
+}
+
+@media (max-width: 835px) {
+
+    .seeds {
+        display: grid;
+        gap: 25px;
+    }
+
+    .seed {
+        margin: auto auto;
+    }
+
+    .times, .seeds {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cuplogo {
+        filter: invert(1);
+    }
+
+    .campeao {
+        grid-template-columns: 1fr;
+    }
+
+    .campeao div:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .campeao .jogador {
+        width: 200px;
+    }
+
+    .celular {
+        display: block;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .fase1, .final {
+        display: grid;
+    }
+
+    .fase1 .celular, .seeds .celular, .times .celular {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .seeds .seed:last-child {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .seeds {
+        display: flex;
+    }
+
+    .fase1 {
+        gap: 20px;
+    }
+
+    .semi2 {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .times {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fase1 {
+        height: auto;
+        display: flex;
+        gap: 50px;
+    }
+
+    .rodape {
+        width: 35px;
+        bottom: 50%;
+        left: 25px;
+        flex-direction: column;
+    }
+
+    .resultado.pc {
+        display: none;
+    }
+
+    .resultado.cel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .fin.cel {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+    }
+
+}
