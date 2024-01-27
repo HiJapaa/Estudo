@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+/* font-family: 'Young Serif', serif;
+font-family: 'Outfit', sans-serif; 
+
+Font size (paragraph): 16px
+*/
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --Raspberry: #f8e8f0;
+    
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--Eggshell);
+}
+
+main {
+    background-color: var(--White);
+    min-width: 400px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.introduction img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.introduction h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.preparation {
+    background-color: var(--Raspberry);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.preparation h5 {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Dark-Raspberry);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.preparation ul, .ingredients ul, .instructions ol, .nutrition td {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.preparation ul li, .ingredients ul li, .instructions ol li {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.preparation ul li::marker {
+    color: var(--Dark-Raspberry);
+}
+
+h3 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-bottom: 15px;
+}
+
+.ingredients ul li::marker, .instructions ol li::marker {
+    color: var(--Nutmeg);
+}
+
+.instructions ol li::marker {
+    font-weight: 600;
+}
+
+.nutrition table {
+    width: 100%;
+}
+
+.nutrition tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.nutrition tr td {
+    flex: 50%;
+}
+
+.nutrition td:last-child {
+    color: var(--Nutmeg);
+    font-weight: 600;
+}
+
+.nutrition tr:last-child {
+    border-bottom: none;
+}
