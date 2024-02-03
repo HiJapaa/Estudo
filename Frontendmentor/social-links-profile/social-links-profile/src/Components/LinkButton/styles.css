@@ -1,0 +1,25 @@
+:root {
+    --Grey: hsl(0, 0%, 20%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey);
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: var(--Green);
+    color: #000;
+}

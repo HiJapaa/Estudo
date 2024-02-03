@@ -1,0 +1,11 @@
+:root {
+    --Off-Black: hsl(0, 0%, 8%)
+}
+
+body {
+    background-color: var(--Off-Black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}

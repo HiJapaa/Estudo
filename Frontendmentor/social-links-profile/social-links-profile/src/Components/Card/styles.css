@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+    --Dark-Grey: hsl(0, 0%, 12%)
+}
+
+.card {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Grey);
+    border-radius: 15px;
+    padding: 35px 0;
+}
+
+.links {
+    gap: 10px;
+}
