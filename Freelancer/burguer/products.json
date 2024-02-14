@@ -1,0 +1,253 @@
+[
+    {
+        "id": 1,
+        "title": "Baguncinha",
+        "price": 15,
+        "ingredients": "Pão, Hamburguer artesanal, Salsicha, Presunto, Queijo, Ovo, Alface, Tomate"
+    },
+    {
+        "id": 2,
+        "title": "Baguncinha de Frango",
+        "price": 15,
+        "ingredients": "Pão, Filé de frango, Salsicha, Presunto, Queijo, Ovo, Alface, Tomate"
+    },
+    {
+        "id": 3,
+        "title": "Burrito Cuiabano",
+        "price": 12,
+        "ingredients": "Pão, Hamburguer artesanal triturado, Molho vermelho, Alface picado, Tomate picado, Presunto, Queijo",
+        "obs": "Caso prefira, substituímos hamburguer por filé de frango"
+    },
+    {
+        "id": 4,
+        "title": "X Burguer",
+        "price": 12,
+        "ingredients": "Pão, Hamburguer artesanal, Presunto, Queijo"
+    },
+    {
+        "id": 5,
+        "title": "Americano Especial",
+        "price": 19,
+        "ingredients": "Pão, Hamburguer artesanal, Dois ovos, Duas fatias de presunto, Duas fatias de queijo, Alface, Tomate"
+    },
+    {
+        "id": 6,
+        "title": "Americano",
+        "price": 11,
+        "ingredients": "Pão, Dois ovos, Duas fatias de presunto, Duas fatias de queijo, Alface, Tomate"
+    },
+    {
+        "id": 7,
+        "title": "X Salada",
+        "price": 15,
+        "ingredients": "Pão, Hamburguer artesanal, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 8,
+        "title": "X Bacon",
+        "price": 17,
+        "ingredients": "Pão, Hamburguer artesanal, Bacon, Presunto, Queijo"
+    },
+    {
+        "id": 9,
+        "title": "X Bacon Salada",
+        "price": 19,
+        "ingredients": "Pão, Hamburguer artesanal, Bacon, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 10,
+        "title": "Frango Bacon Salada",
+        "price": 19,
+        "ingredients": "Pão, Filé de frango, Bacon, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 11,
+        "title": "Hot Dog Prensado de Frango",
+        "price": 13,
+        "ingredients": "Pão, Salsichas grelhadas na chapa, Frango picado, Presunto, Queijo",
+        "obs": "Opcional: Batata palha e milho"
+    },
+    {
+        "id": 12,
+        "title": "Hot Dog Prensado de Calabresa",
+        "price": 13,
+        "ingredients": "Pão, Salsichas grelhadas na chapa, Calabresa, Presunto, Queijo",
+        "obs": "Opcional: Batata palha e milho"
+    },
+    {
+        "id": 13,
+        "title": "X Mingnon",
+        "price": 18,
+        "ingredients": "Pão, Filé Mingnon, Duas fatias de presunto, Duas fatias de queijo"
+    },
+    {
+        "id": 14,
+        "title": "Baguncinha Simples",
+        "price": 11.99,
+        "ingredients": "Pão, Hamburguer industrial, Ovo, Salsicha, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 15,
+        "title": "Paulistinha",
+        "price": 18,
+        "ingredients": "Pão, Filé mingnon, Cebola grelhada, Presunto, Queijo, Tomate"
+    },
+    {
+        "id": 16,
+        "title": "Paulistão",
+        "price": 21,
+        "ingredients": "Pão, Filé mingnon, Cebola grelhada, Ovo, Calabresa, Presunto, Queijo, Tomate"
+    },
+    {
+        "id": 17,
+        "title": "Misto Quente",
+        "price": 8.99,
+        "ingredients": "Pão, Duas fatias de presunto, Duas fatias de queijo"
+    },
+    {
+        "id": 18,
+        "title": "Bauru",
+        "price": 10,
+        "ingredients": "Pão, Duas fatias de presunto, Duas fatias de queijo, Tomate"
+    },
+    {
+        "id": 19,
+        "title": "X Egg",
+        "price": 16,
+        "ingredients": "Pão, Hamburguer artesanal, Ovo, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 20,
+        "title": "X Calabresa",
+        "price": 16,
+        "ingredients": "Pão, Hamburguer artesanal, Calabresa, Presunto, Queijo"
+    },
+    {
+        "id": 21,
+        "title": "Calabresinha",
+        "price": 11,
+        "ingredients": "Pão, Calabresa, Cebola grelhada, Presunto, Queijo"
+    },
+    {
+        "id": 22,
+        "title": "X Calabresa Salada",
+        "price": 17,
+        "ingredients": "Pão, Hamburguer artesanal, Calabresa, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 23,
+        "title": "X Tudo",
+        "price": 28,
+        "ingredients": "Pão, Hamburguer artesanal, Filé mingnon, Filé de frango, Bacon, Salsicha, Ovo, Calabresa, Presunto, Queijo, Alface, Tomate",
+        "obs": "Opcional: Batata palha e milho"
+    },
+    {
+        "id": 24,
+        "title": "X Bagunça",
+        "price": 21,
+        "ingredients": "Pão, Hamburguer artesanal, Bacon, Salsicha, Ovo, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 25,
+        "title": "Baguncinha com Bacon",
+        "price": 17,
+        "ingredients": "Pão, Hamburguer artesanal, Salsicha, Presunto, Queijo, Bacon, Ovo, Alface, Tomate"
+    },
+    {
+        "id": 26,
+        "title": "X Big Big",
+        "price": 22,
+        "ingredients": "Pão, Dois hambúrgueres artesanais, Duas fatias de presunto, Duas fatias de queijo, Dois ovos, Batata palha, Milho, Alface, Tomate"
+    },
+    {
+        "id": 27,
+        "title": "Filé Mingnon Bagunça",
+        "price": 22,
+        "ingredients": "Pão, Filé mingnon, Bacon, Salsicha, Ovo, Presunto, Queijo, Calabresa, Alface, Tomate"
+    },
+    {
+        "id": 28,
+        "title": "Frango Bagunça",
+        "price": 21,
+        "ingredients": "Pão, Filé de frango, Bacon, Salsicha, Ovo, Presunto, Queijo, Calabresa, Alface, Tomate"
+    },
+    {
+        "id": 29,
+        "title": "Frango Salada",
+        "price": 16,
+        "ingredients": "Pão, Filé de frango, Presunto, Queijo, Alface, Tomate",
+        "obs": "Opcional: Milho verde"
+    },
+    {
+        "id": 30,
+        "title": "Mingnon Salada",
+        "price": 18,
+        "ingredients": "Pão, Filé mingnon, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 31,
+        "title": "Pap's Especial",
+        "price": 21,
+        "ingredients": "Pão, Filé mingnon, Bacon, Presunto, Queijo, Alface, Tomate"
+    },
+    {
+        "id": 32,
+        "title": "Batata Frita P",
+        "price": 12
+    },
+    {
+        "id": 33,
+        "title": "Batata Frita M",
+        "price": 18
+    },
+    {
+        "id": 34,
+        "title": "Batata Frita G",
+        "price": 25
+    },
+    {
+        "id": 35,
+        "title": "Batata Frita G com Cheddar, Catupiry e Bacon",
+        "price": 30
+    },
+    {
+        "id": 36,
+        "title": "Coca-cola 1L",
+        "price": 22
+    },
+    {
+        "id": 37,
+        "title": "Fanta Laranja 1L",
+        "price": 22
+    },
+    {
+        "id": 38,
+        "title": "Coca-cola Lata 310ml",
+        "price": 22
+    },
+    {
+        "id": 39,
+        "title": "Fanta Laranja Lata 310ml",
+        "price": 22
+    },
+    {
+        "id": 40,
+        "title": "Guaraná Lata 310ml",
+        "price": 22
+    },
+    {
+        "id": 41,
+        "title": "Suco Dell Vale Lata 310ml",
+        "price": 22
+    },
+    {
+        "id": 42,
+        "title": "Água sem gás",
+        "price": 22
+    },
+    {
+        "id": 43,
+        "title": "Água com gás",
+        "price": 22
+    }
+]
